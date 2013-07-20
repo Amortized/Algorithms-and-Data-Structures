@@ -1,0 +1,27 @@
+Problem Statement:
+       1
+      /  \
+     2   3	
+
+Finding Least Common Ancestor for two nodes of tree. In this case Ans is 1.
+
+<Preprocessing, Querying>
+solution in <O(N logN, O(logN)>
+
+Example for Input:
+         Assume Tree is like this
+			1
+		      /  \
+		     2	  3
+		   / | \
+		  4  5  6
+		  |  |  | 
+		  7  8  9
+
+No of Nodes: 9
+Parents for each node(Breadth First Order) : -1 1 1 2 2 2 4 5 6
+Level for Each Node: 1 2 2 3 3 3 4 4 4
+Enter two node whose LCA is to be found:3 6
+Result: 1
+
+

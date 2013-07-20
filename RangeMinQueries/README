@@ -1,0 +1,12 @@
+Author: Rahul Manghwani
+
+
+Problem Statement: 
+given a long stream of numbers(dynamic/non-dynamic), find RMQ(i,j) gives you the index of an element with minimum value between 'i' and 'j'.
+
+notation - <f(n),g(n),h(n)> ~ <preprocessing time, query time, memory required>
+
+1) Dynamic Programming - <O(n^2),O(1),O(n^2)>
+2) Sparse Table (ST) algorithm - <O(nlogn),O(1),O(nlogn)>.
+3) Segment Tree - <O(n),O(logn),O(2^[logn])>
+

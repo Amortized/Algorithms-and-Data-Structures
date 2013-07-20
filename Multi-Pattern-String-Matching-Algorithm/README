@@ -1,0 +1,8 @@
+Problem Statement: Given patterns(p1,p2,p3,p4..) and their replacements(r1,r2,r3...) we would like to replace 
+		   the patterns with their replacements in the text in sublinear time. 
+		
+		   We use Set Backward Oracle Matching Algorithm. It builds an oracle(automata) from all the patterns
+		   where oracle represents all the possible substrings that can be made from the patterns. 
+
+		   This algorithm is known to work well large keyword sets and varying keywords lengths.
+		   Its closest competitor is Wu - Manber Algorithm. 

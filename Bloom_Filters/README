@@ -1,0 +1,14 @@
+Used for Storing Sets for real System Applications e.g Google BigTable
+
+Sets 
+
+n - no of elements 
+m - no of bits for each element
+
+Implementation        Memory             Time 
+Balanced BST          o(mn)              O(mlogn)
+Hash Tables 	      O(mn)              O(m(noofElementsPerBucket))
+Bloom Filters         O(q) (q bit Array)  O(mk) //K is no of hash functions 
+
+
+

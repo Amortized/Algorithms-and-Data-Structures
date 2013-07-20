@@ -1,0 +1,23 @@
+Implemented by Rahul Manghwani
+
+UnionFind Data Structure to support find and union operations. 
+
+
+1. While Union , its unioned by rank, i.e smaller ranked node's parent is set to higher rank's parent. This keeps the depth of the tree low
+2. For each findset, once the root is found we update all the nodes along this path. This aids in speeding up future findsets. So we get 
+better Amortized Complexity
+
+
+Complexity per operation is  O(alpha(n)) where alpha(n) is inverse of Ackermann function which is fast growing function .
+So amortized complexity is very small constant 
+
+
+Applications
+To keep track of connected components of a undirected graph. Whether two vertices belong to same set OR 
+
+Whether Adding an edge between two vertices will result in a cycle(Just find the parents for two vertices, if they are same then adding an edge 
+will create a cycle)
+
+Here is awesome application of this Data Structure to a problem
+
+http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=disjointDataStructure
