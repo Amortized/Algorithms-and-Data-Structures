@@ -1,4 +1,4 @@
-""" Author : Rahul Manghwani. NYU Courant rrm333@nyu.edu
+""" Author : Rahul
     Fibonacci Heaps Implementation
     Insert ele, Merge Heaps,Find Min ele and decrease key in O(1)
     Dont use this data structure if there are a lot of extract min or delete operations as they take O(log n) amortized time
