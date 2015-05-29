@@ -1,4 +1,4 @@
-""" Author : Rahul Manghwani. NYU Courant rrm333@nyu.edu
+""" Author : Rahul
     Binomial Heaps Implementation
     Insert ele, Merge Heaps,Del ele, Find Min ele, Decrease Key ele,Del Min Ele all in O(log n)
 """
