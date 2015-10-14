@@ -1,5 +1,5 @@
 /*
-Implemented by Rahul Manghwani(rrm333@nyu.edu/rahulmanghwani@gmail.com)
+Implemented by Rahul(rrm333@nyu.edu)
 
 AVL Trees: Self Balancing BST used to implement associative arrays, priority queues , ordered sets
    and mutable lists
