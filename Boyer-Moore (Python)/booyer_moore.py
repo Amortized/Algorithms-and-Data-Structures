@@ -1,4 +1,4 @@
-"""Author: Rahul Manghwani. rrm333@nyu.edu.   NYU Courant
+"""Implemented by Rahul(rrm333@nyu.edu) rrm333@nyu.edu.   NYU Courant
    Boyer Moore : Single Pattern Matching Algorithm
    Preprocessing Time and Space: O(m)
    Searching: Worst Case O(m+n)
