@@ -1,4 +1,4 @@
-""" Implemented by Rahul Manghwani . Key is choosing optimal values for no of hash functions and arraySize
+""" Implemented by Rahul(rrm333@nyu.edu) . Key is choosing optimal values for no of hash functions and arraySize
     Probability of False Positive is (1 - e^(-kn/m))^k
     Memory Usage is O(cn) where n is the no of elements
     Time is O(cm) where m is how many bits long each element is
